@@ -1,0 +1,47 @@
+#This text file consists of exercise in chapter 3 that needs text based answers
+
+##Section 3.1
+1.	
+	a)  6d - prints 86 in a decimal form with minimum field width of 
+	    6, right justified with 4 space characters
+	
+	    4d - prints 1040 in decimal form with minimum field width of 4
+
+	b)  12.5e - prints 30.253 in exponential form with the minimum field width
+	    of 12 with 5 digits after the decimal point, since 30.253 requires
+	    6 characters, it is preceded by 6 spaces
+	
+	c)  .4f - display 83.162 in fixed decimal form, with four digits after the
+	   decimal point, so a 0 will be appended to the number 
+
+	d)  -6.2g - prints .0000009979 in either fixed decimal form or exponential form
+	   with minimun field width of 6, with maximum number of 2 signifigant
+	   digits excluding the numbers after decimal point, left  justified
+
+2.	a) printf("%-8.1e", x);
+	
+	b) printf("10.6e", x);
+
+	c) printf("-8.3f", x);
+	
+	d) printf("6f.0", x);
+
+##Section 3.2
+3.
+	a) skip
+
+	b) skip
+
+	c) skip
+
+	d) skip
+
+4.	i will equal 10
+	x will equal 0.3 
+	j will equal 5
+
+5.	x will equal to 12.3
+	i will equal to 45
+	y will equal to 0.6
+
+
