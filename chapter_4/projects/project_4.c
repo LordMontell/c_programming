@@ -10,7 +10,7 @@ int main(void)
 {
 	int user_int;
 	int digit1, digit2, digit3, digit4, digit5;
-	
+
 	printf("Enter a number between 0 and 32767: ");
 	scanf("%d", &user_int);
 
@@ -29,8 +29,8 @@ int main(void)
 	digit1 = user_int % 8;
 	user_int = user_int / 8;
 
-
-	printf("In octal, your number is: %d%d%d%d%d\n", digit1, digit2, digit3, digit4, digit5);
+	printf("In octal, your number is: %d%d%d%d%d\n", digit1,
+			digit2, digit3, digit4, digit5);
 
 	return (0);
 }
