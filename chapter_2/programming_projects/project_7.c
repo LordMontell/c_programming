@@ -11,7 +11,6 @@
 int main(void)
 {
 	int user_amount = 0;
-	int remaining_amount = 0;
 	int small_amount = 0;
 
 	printf("Enter a dollar amount: \n");
