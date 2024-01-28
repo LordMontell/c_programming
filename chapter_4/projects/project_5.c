@@ -16,37 +16,17 @@ int main(void)
 	scanf("%d", &upc);
 
 	d11 = upc % 10;
-	upc = upc / 10;
+	d10 = (upc / 10) % 10;
+	d9 = (upc / (100)) % 10;
+	d8 = (upc / (1000)) % 10;
+	d7 = (upc / (10000)) % 10;
+	d6 = (upc / (100000)) % 10;
+	d5 = (upc / (1000000)) % 10;
+	d4 = (upc / (10000000)) % 10;
+	d3 = (upc / (100000000)) % 10;
+	d2 = (upc / (1000000000)) % 10;
+	d1 = (upc / (10000000000)) % 10;
 
-	d10 = upc % 10;
-	upc = upc / 10;
-
-	d9 = upc % 10;
-	upc = upc / 10;
-
-	d8 = upc % 10;
-	upc = upc / 10;
-
-	d7 = upc % 10;
-	upc = upc / 10;
-
-	d6 = upc % 10;
-	upc = upc / 10;
-
-	d5 = upc % 10;
-	upc = upc / 10;
-
-	d4 = upc % 10;
-	upc = upc / 10;
-
-	d3 = upc % 10;
-	upc = upc / 10;
-
-	d2 = upc % 10;
-	upc = upc / 10;
-
-	d1 = upc % 10;
-	
 	first_sum = d1 + d3 + d5 + d7 + d9 + d11;
 	second_sum = d2 + d4 + d6 + d8 + d10;
 
@@ -55,4 +35,6 @@ int main(void)
 	check_digit = 9 - (total - 1) % 10;
 
 	printf("Check digit: %d\n", check_digit);
+
+	return (0);
 }
