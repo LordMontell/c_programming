@@ -10,7 +10,7 @@ int main(void)
 	int digit;
 
 	printf("Enter a number: ");
-	scanf("%3d", &digit);
+	scanf("%4d", &digit);
 
 	if (digit >= 0 && digit <= 9)
 		printf("The number %d has 1 digits\n", digit);
@@ -18,4 +18,8 @@ int main(void)
 		printf("The number %d has 2 digits\n", digit);
 	else if (digit >= 100 && digit <= 999)
 		printf("The number %d has 3 digits\n", digit);
+	else if (digit >= 1000 && digit <= 9999)
+		printf("The number %d has 4 digits\n", digit);
+
+	return (0);
 }
