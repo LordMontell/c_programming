@@ -1,9 +1,9 @@
-#This file contains al the exercise that needs text as a solution
-##Section 2.1
+# This file contains al the exercise that needs text as a solution
+## Section 2.1
 1. Yes, write a return statement
-##Section 2.2
-2.(a)
-
+## Section 2.2
+2. (a)
+```
  #include <stdio.h>    //directive
 int main(void)
 {
@@ -12,18 +12,18 @@ int main(void)
  printf("available for its completion.\n");	//Statement
  return 0;	//Statement
 }
-
+```
   (b) Parkinson's Law:
       Work expands so as to fill the time
       available for its completion.
 
 
-##Section 2.4
+## Section 2.4
 4. it depends on the version of compiler used.
    c89 - There's no pattern
    c99 - all uninitialized variables ae initialized to zero
 
-##Section 2.5
+## Section 2.5
 5. (a) 
 	a - the identifier begins with a digit, which is illegal
 
@@ -33,7 +33,7 @@ int main(void)
 
 7. a,b,c,d,e
 
-##Section 2.8
+## Section 2.8
 8.
 	14 Tokens
 
