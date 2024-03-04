@@ -1,17 +1,17 @@
-# This file contains al the exercise that needs text as a solution
+# This file contains exercises where solutions are in text format 
 ## Section 2.1
 1. Yes, write a return statement
 ## Section 2.2
 2. (a)
 ```
- #include <stdio.h>    //directive
-int main(void)
-{
- printf("Parkinson's Law:\nWork expands so as to "); //Statement
- printf("fill the time\n");	//Statement
- printf("available for its completion.\n");	//Statement
- return 0;	//Statement
-}
+#include <stdio.h>    //directive
+	int main(void)
+	{
+ 		printf("Parkinson's Law:\nWork expands so as to "); //Statement
+		printf("fill the time\n");	//Statement
+		printf("available for its completion.\n");	//Statement
+		return 0;	//Statement
+	}
 ```
   (b) Parkinson's Law:
       Work expands so as to fill the time
