@@ -51,7 +51,6 @@ int main(void)
 
 			}
 			return (0);
-			break;
 		case 2:
 			printf("You entered the number twenty");
 			break;
