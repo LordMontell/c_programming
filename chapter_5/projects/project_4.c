@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int speed;
+	float speed;
 
 	scanf("%d", &speed);
 
